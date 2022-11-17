@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6548013300,
+              "duration": 21942800,
               "status": "passed"
             },
             "line": 8,
@@ -24,17 +24,39 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-17T05:26:26.790Z",
+        "start_timestamp": "2022-11-17T05:45:47.535Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6325691700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.OrangeHrmHooks.setup()"
+            }
+          }
+        ],
         "line": 13,
         "name": "User should able to login with valid username and password",
         "description": "",
         "id": "orangehrm-login-feature;user-should-able-to-login-with-valid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 311395200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.OrangeHrmHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 446273000,
+              "duration": 464340900,
               "status": "passed"
             },
             "line": 14,
@@ -46,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 150596600,
+              "duration": 140623100,
               "status": "passed"
             },
             "line": 15,
@@ -58,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 104719500,
+              "duration": 81781800,
               "status": "passed"
             },
             "line": 16,
@@ -70,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 1503897000,
+              "duration": 1459232800,
               "status": "passed"
             },
             "line": 17,
@@ -108,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5050634600,
+              "duration": 1994600,
               "status": "passed"
             },
             "line": 8,
@@ -121,17 +143,39 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-17T05:26:35.608Z",
+        "start_timestamp": "2022-11-17T05:45:56.395Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17796928900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.OrangeHrmHooks.setup()"
+            }
+          }
+        ],
         "line": 23,
         "name": "User should not able to login with valid username and invalid password",
         "description": "",
         "id": "orangehrm-login-feature;user-should-not-able-to-login-with-valid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 263035700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.OrangeHrmHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 598398900,
+              "duration": 783973800,
               "status": "passed"
             },
             "line": 24,
@@ -163,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 123671200,
+              "duration": 79786900,
               "status": "passed"
             },
             "line": 28,
@@ -175,7 +219,7 @@
           },
           {
             "result": {
-              "duration": 1501980100,
+              "duration": 1459601200,
               "status": "passed"
             },
             "line": 29,

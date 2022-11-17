@@ -19,7 +19,6 @@ public class LoginStepDef extends BasePage {
 	
 	@Given("go to the home page")
 	public void go_to_the_home_page() {
-		init();
 		pf = PageFactory.initElements(driver, LoginPage.class);
 	}
 
