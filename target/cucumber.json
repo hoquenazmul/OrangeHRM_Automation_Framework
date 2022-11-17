@@ -1,0 +1,232 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6548013300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "go to the home page",
+            "match": {
+              "location": "com.stepdefs.LoginStepDef.go_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-17T05:26:26.790Z",
+        "line": 13,
+        "name": "User should able to login with valid username and password",
+        "description": "",
+        "id": "orangehrm-login-feature;user-should-able-to-login-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 446273000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "input the username",
+            "match": {
+              "location": "com.stepdefs.LoginStepDef.input_the_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150596600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "input the password",
+            "match": {
+              "location": "com.stepdefs.LoginStepDef.input_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104719500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepdefs.LoginStepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1503897000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "validate the dashboard page",
+            "match": {
+              "location": "com.stepdefs.LoginStepDef.validate_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@core_regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@core_regression"
+          },
+          {
+            "name": "@OrangeHRM_44001"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5050634600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "go to the home page",
+            "match": {
+              "location": "com.stepdefs.LoginStepDef.go_to_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-17T05:26:35.608Z",
+        "line": 23,
+        "name": "User should not able to login with valid username and invalid password",
+        "description": "",
+        "id": "orangehrm-login-feature;user-should-not-able-to-login-with-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 598398900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "input the username and password",
+            "match": {
+              "location": "com.stepdefs.LoginStepDef.input_the_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Admin",
+                  "test123"
+                ]
+              },
+              {
+                "cells": [
+                  "Admin",
+                  "hello123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123671200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepdefs.LoginStepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1501980100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "check invalid credentials",
+            "match": {
+              "location": "com.stepdefs.LoginStepDef.check_invalid_credentials()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@core_regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@core_regression"
+          },
+          {
+            "name": "@OrangeHRM_44002"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Login Feature",
+    "description": "",
+    "id": "orangehrm-login-feature",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@core_regression",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

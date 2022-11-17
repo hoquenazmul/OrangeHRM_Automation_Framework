@@ -38,9 +38,11 @@ public class BasePage {
 		if (props.getProperty("browser").equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
+			log.info("***** ChromeDriver Initiated *****");
 		} else if (props.getProperty("browser").equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
+			log.info("***** FirefoxDriver Initiated *****");
 		} else {
 			System.out.println("Driver not Found!");
 		}
@@ -49,12 +51,6 @@ public class BasePage {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(50));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(props.getProperty("URL"));
+		log.info("***** Home page opened *****");
 	}
-	
-	public static void main(String[] args) {
-		BasePage bp = new BasePage();
-		bp.init();
-	}
-	
-	
 }

@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 	plugin= {"pretty","json:target/cucumber.json" }, // for html= {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" },	
 	features = {".//features/"}, 
     glue = {"com.stepdefs","com.hooks"}, 	
-    tags = "@smoke and @core_regression",
+    tags = "@OrangeHRM_44001 or @OrangeHRM_44002",
 	dryRun = false, 
 	monochrome = true
 )

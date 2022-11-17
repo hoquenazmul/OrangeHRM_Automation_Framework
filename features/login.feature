@@ -26,7 +26,7 @@ Feature: OrangeHRM Login Feature
     | Admin    | test123  |
     | Admin    | hello123 |
     And click on login button
-		Then validate the dashboard page
+		Then check invalid credentials
 
   @smoke
   @core_regression
@@ -35,7 +35,7 @@ Feature: OrangeHRM Login Feature
     When input the username <username>
     And input the password <password>
     And click on login button
-		Then validate the dashboard page
+		Then check invalid credentials
 
     Examples: 
       | username  | password |
