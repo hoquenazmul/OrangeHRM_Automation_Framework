@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="OrangeHrmTestAutomation" verbose="1">
+	<test name="OrangeHRM Login Test">
+		<classes>
+			<class name="com.runner.CucumberRunner" />
+		</classes>
+	</test>
+</suite>
+<!-- *************** Dummy Test Suite ***************
+<suite name="Dummy Suite" parallel="tests" thread-count="5">
+	<listeners>
+		<listener class-name="com.listener.TestListener"></listener>
+	</listeners>
+	<test name="Dummy">
+		<parameter name="url" value="dummy.website.com" />
+		<groups>
+			<run>
+				<exclude name="smoke" />
+				<include name="core_regression" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.dummy" />
+		</packages>
+		<classes>
+			<class name="com.runner.CucumberRunner">
+				<methods>
+					<exclude name="dummy"></exclude>
+					<include name="mobile.*"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+************************************************** -->
