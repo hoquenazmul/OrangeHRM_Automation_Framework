@@ -3,6 +3,7 @@
 **Key Tools that used to Develop this Hybrid Framework:**
  - Selenium with Java
  - Cucumber
+ - Cucumber Report
  - TestNG
  - Log4j
 
